@@ -142,7 +142,7 @@ const ui = new UI();
 let presupuesto;
 
 function preguntarPresupuesto() {
-    const presupuestoUsuario = prompt('¿Cual es tu presupuesto?');
+    const presupuestoUsuario = prompt('what is your budget?');
 
     if( presupuestoUsuario === '' || presupuestoUsuario === null || isNaN(presupuestoUsuario) || presupuestoUsuario <= 0 ) {
         window.location.reload();
